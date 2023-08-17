@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F463932D2A8E6F9400617234 /* GasPriceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463932C2A8E6F9400617234 /* GasPriceTrackerApp.swift */; };
+		F463932F2A8E6F9400617234 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463932E2A8E6F9400617234 /* ContentView.swift */; };
+		F46393312A8E6F9800617234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46393302A8E6F9800617234 /* Assets.xcassets */; };
+		F46393342A8E6F9800617234 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46393332A8E6F9800617234 /* Preview Assets.xcassets */; };
+		F463933E2A8E6F9900617234 /* GasPriceTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F463933D2A8E6F9900617234 /* GasPriceTrackerTests.swift */; };
+		F46393482A8E6F9900617234 /* GasPriceTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46393472A8E6F9900617234 /* GasPriceTrackerUITests.swift */; };
+		F463934A2A8E6F9900617234 /* GasPriceTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46393492A8E6F9900617234 /* GasPriceTrackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F463933A2A8E6F9900617234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46393212A8E6F9400617234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46393282A8E6F9400617234;
+			remoteInfo = GasPriceTracker;
+		};
+		F46393442A8E6F9900617234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F46393212A8E6F9400617234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F46393282A8E6F9400617234;
+			remoteInfo = GasPriceTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F46393292A8E6F9400617234 /* GasPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F463932C2A8E6F9400617234 /* GasPriceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPriceTrackerApp.swift; sourceTree = "<group>"; };
+		F463932E2A8E6F9400617234 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F46393302A8E6F9800617234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46393332A8E6F9800617234 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F46393392A8E6F9900617234 /* GasPriceTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasPriceTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F463933D2A8E6F9900617234 /* GasPriceTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPriceTrackerTests.swift; sourceTree = "<group>"; };
+		F46393432A8E6F9900617234 /* GasPriceTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasPriceTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46393472A8E6F9900617234 /* GasPriceTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPriceTrackerUITests.swift; sourceTree = "<group>"; };
+		F46393492A8E6F9900617234 /* GasPriceTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasPriceTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46393262A8E6F9400617234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46393362A8E6F9900617234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46393402A8E6F9900617234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46393202A8E6F9400617234 = {
+			isa = PBXGroup;
+			children = (
+				F463932B2A8E6F9400617234 /* GasPriceTracker */,
+				F463933C2A8E6F9900617234 /* GasPriceTrackerTests */,
+				F46393462A8E6F9900617234 /* GasPriceTrackerUITests */,
+				F463932A2A8E6F9400617234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F463932A2A8E6F9400617234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46393292A8E6F9400617234 /* GasPriceTracker.app */,
+				F46393392A8E6F9900617234 /* GasPriceTrackerTests.xctest */,
+				F46393432A8E6F9900617234 /* GasPriceTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F463932B2A8E6F9400617234 /* GasPriceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F463932C2A8E6F9400617234 /* GasPriceTrackerApp.swift */,
+				F463932E2A8E6F9400617234 /* ContentView.swift */,
+				F46393302A8E6F9800617234 /* Assets.xcassets */,
+				F46393322A8E6F9800617234 /* Preview Content */,
+			);
+			path = GasPriceTracker;
+			sourceTree = "<group>";
+		};
+		F46393322A8E6F9800617234 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F46393332A8E6F9800617234 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F463933C2A8E6F9900617234 /* GasPriceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F463933D2A8E6F9900617234 /* GasPriceTrackerTests.swift */,
+			);
+			path = GasPriceTrackerTests;
+			sourceTree = "<group>";
+		};
+		F46393462A8E6F9900617234 /* GasPriceTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F46393472A8E6F9900617234 /* GasPriceTrackerUITests.swift */,
+				F46393492A8E6F9900617234 /* GasPriceTrackerUITestsLaunchTests.swift */,
+			);
+			path = GasPriceTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46393282A8E6F9400617234 /* GasPriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F463934D2A8E6F9900617234 /* Build configuration list for PBXNativeTarget "GasPriceTracker" */;
+			buildPhases = (
+				F46393252A8E6F9400617234 /* Sources */,
+				F46393262A8E6F9400617234 /* Frameworks */,
+				F46393272A8E6F9400617234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GasPriceTracker;
+			productName = GasPriceTracker;
+			productReference = F46393292A8E6F9400617234 /* GasPriceTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F46393382A8E6F9900617234 /* GasPriceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46393502A8E6F9900617234 /* Build configuration list for PBXNativeTarget "GasPriceTrackerTests" */;
+			buildPhases = (
+				F46393352A8E6F9900617234 /* Sources */,
+				F46393362A8E6F9900617234 /* Frameworks */,
+				F46393372A8E6F9900617234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F463933B2A8E6F9900617234 /* PBXTargetDependency */,
+			);
+			name = GasPriceTrackerTests;
+			productName = GasPriceTrackerTests;
+			productReference = F46393392A8E6F9900617234 /* GasPriceTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F46393422A8E6F9900617234 /* GasPriceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46393532A8E6F9900617234 /* Build configuration list for PBXNativeTarget "GasPriceTrackerUITests" */;
+			buildPhases = (
+				F463933F2A8E6F9900617234 /* Sources */,
+				F46393402A8E6F9900617234 /* Frameworks */,
+				F46393412A8E6F9900617234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F46393452A8E6F9900617234 /* PBXTargetDependency */,
+			);
+			name = GasPriceTrackerUITests;
+			productName = GasPriceTrackerUITests;
+			productReference = F46393432A8E6F9900617234 /* GasPriceTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46393212A8E6F9400617234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F46393282A8E6F9400617234 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F46393382A8E6F9900617234 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F46393282A8E6F9400617234;
+					};
+					F46393422A8E6F9900617234 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F46393282A8E6F9400617234;
+					};
+				};
+			};
+			buildConfigurationList = F46393242A8E6F9400617234 /* Build configuration list for PBXProject "GasPriceTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46393202A8E6F9400617234;
+			productRefGroup = F463932A2A8E6F9400617234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46393282A8E6F9400617234 /* GasPriceTracker */,
+				F46393382A8E6F9900617234 /* GasPriceTrackerTests */,
+				F46393422A8E6F9900617234 /* GasPriceTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46393272A8E6F9400617234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46393342A8E6F9800617234 /* Preview Assets.xcassets in Resources */,
+				F46393312A8E6F9800617234 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46393372A8E6F9900617234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46393412A8E6F9900617234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46393252A8E6F9400617234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F463932F2A8E6F9400617234 /* ContentView.swift in Sources */,
+				F463932D2A8E6F9400617234 /* GasPriceTrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46393352A8E6F9900617234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F463933E2A8E6F9900617234 /* GasPriceTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F463933F2A8E6F9900617234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46393482A8E6F9900617234 /* GasPriceTrackerUITests.swift in Sources */,
+				F463934A2A8E6F9900617234 /* GasPriceTrackerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F463933B2A8E6F9900617234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46393282A8E6F9400617234 /* GasPriceTracker */;
+			targetProxy = F463933A2A8E6F9900617234 /* PBXContainerItemProxy */;
+		};
+		F46393452A8E6F9900617234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F46393282A8E6F9400617234 /* GasPriceTracker */;
+			targetProxy = F46393442A8E6F9900617234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F463934B2A8E6F9900617234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F463934C2A8E6F9900617234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F463934E2A8E6F9900617234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasPriceTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GasPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F463934F2A8E6F9900617234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GasPriceTracker/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GasPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F46393512A8E6F9900617234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GasPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasPriceTracker";
+			};
+			name = Debug;
+		};
+		F46393522A8E6F9900617234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GasPriceTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GasPriceTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GasPriceTracker";
+			};
+			name = Release;
+		};
+		F46393542A8E6F9900617234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GasPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasPriceTracker;
+			};
+			name = Debug;
+		};
+		F46393552A8E6F9900617234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.GasPriceTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GasPriceTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46393242A8E6F9400617234 /* Build configuration list for PBXProject "GasPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F463934B2A8E6F9900617234 /* Debug */,
+				F463934C2A8E6F9900617234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F463934D2A8E6F9900617234 /* Build configuration list for PBXNativeTarget "GasPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F463934E2A8E6F9900617234 /* Debug */,
+				F463934F2A8E6F9900617234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46393502A8E6F9900617234 /* Build configuration list for PBXNativeTarget "GasPriceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46393512A8E6F9900617234 /* Debug */,
+				F46393522A8E6F9900617234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46393532A8E6F9900617234 /* Build configuration list for PBXNativeTarget "GasPriceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46393542A8E6F9900617234 /* Debug */,
+				F46393552A8E6F9900617234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46393212A8E6F9400617234 /* Project object */;
+}
